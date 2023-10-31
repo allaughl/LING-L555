@@ -10,16 +10,13 @@ while line:
         print('# text = %s' % (line), line.strip())
 
         for pun in ".,!?;:'":
-            line = line.replace(pun, ' ' + pun) 
+            line = line.replace(pun, ' ' + pun)
             line = line.strip()
         token = line.split(' ')
         counter1=1
         for c in token:
-                print('%d       %s      %s      %s      %s      %s      %s      %s      %s      %s' % (counter1,        c,      '_',    '_',    '_',    '_',    '_',    '_',    '_',    '_'))
+                print('%d\t%s   %s      %s      %s      %s      %s      %s      %s      %s' % (counter1,        c,      '_',    '_',    '_',    '_',    '_',    '_',    '_',    '_'))
 
 
-                counter1 = counter1 +1 
+                counter1 = counter1 +1
         line = sys.stdin.readline()
-        print()
-
-			
