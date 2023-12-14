@@ -2,10 +2,10 @@
 
 List of completed practicals:
 * `segmenter.py`
-
-List of incomplete practicals:
-
 * `tokeniser.py`
 * `transcriber.py`
+
+* List of incomplete practicals:
+
 * `trainer.py`
 * `tagger.py`
